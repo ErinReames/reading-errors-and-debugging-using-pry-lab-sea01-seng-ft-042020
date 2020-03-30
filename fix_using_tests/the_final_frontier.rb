@@ -17,7 +17,7 @@ def engage
   
  
   
-   "Captain's Log, star date " + generate_star_date.to_s + "." 
+   "Captain's Log, star date " + generate_star_date.to_s 
+   engage
    end
 
-puts engage
