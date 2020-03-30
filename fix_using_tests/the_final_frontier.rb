@@ -15,9 +15,9 @@ end
   
 def engage
   
- date = generate_star_date
+ 
   
-   "Captain's Log, star date #{date}."
-end
+   "Captain's Log, star date " + generate_star_date + "." 
+   end
 
 puts engage
